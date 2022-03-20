@@ -2,7 +2,7 @@
 #Ing sistemas
 #Paula Natalia Paez Vega
 
-import Libreria_ as nc
+import Libreria_operaciones_complejos as nc
 
 
 def interferencias(matriz):
