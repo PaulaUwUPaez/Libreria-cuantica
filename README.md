@@ -52,4 +52,4 @@ Aquí se encuentra:
 13. Función que calcula, con una serie de matrices Un, el estado final a partir de un estado inicial. 
 - Cabe aclarar que para el cuarto punto se importó la librería matplotlib, de la cual requiere una previa instalación.
 - Se incluyen ejercicios del capítulo 4 de Quantum computing for computer scientists en el archivo Ejercicios.
-- Se realizan pruebas con la librería unittest dentro de TestQuantum.py.
+- Se realizan pruebas con la librería unittest dentro de TestQuantum.py
