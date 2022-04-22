@@ -30,23 +30,25 @@ Esta librería contiene las siguientes operaciones con números complejos dentro
 28. Módulo cuadrado de un complejo.
 29. Normalizar un vector.
 30. Hallar la matriz identidad.
-Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py en el directorio LibNumerosComplejos.
+
+- Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py en el directorio LibNumerosComplejos.
 
 Además de ello, cuenta con retos de programación de los capítulos 3 y 4 de Quantum computing for computer scientists dentro del archivo quantum.py en el directorio Teoria_cuantica_basica.
 
 Aquí se encuentra:
 
-Los experimentos de la canicas con coeficiente booleanos
-Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
-Experimento de las múltiples rendijas cuántico.
-Función que grafica con un diagrama de barras las probabilidades de un vector de estados
-Función que calcula la probabilidad de encontrar una partícula en una posición en particular.
-Función que calcula la amplitud de transición.
-Función que calcula la probabilidad de transitar.
-Función que calcula la media del observable en el estado dado.
-Función que calcula la varianza del observable en el estado dado.
-Función que calcula el delta del observable en el estado dado.
-Función que calcula calcula los valores propios del observable.
-Función que calcula la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
-Función que calcula, con una serie de matrices Un, el estado final a partir de un estado inicial Cabe aclarar que para el cuarto punto se importó la librería matplotlib, de la cual requiere una previa instalación.
-Se incluyen ejercicios del capítulo 4 de Quantum computing for computer scientists en el archivo Ejercicios dentro del directorio Teoria_cuantica_basica. Se realizan pruebas con la librería unittest dentro de TestQuantum.py en el directorio Teoria_cuantica_basica.
+1. Los experimentos de la canicas con coeficiente booleanos
+2. Experimentos de las múltiples rendijas clásico probabilístico, con más de dos rendijas.
+3. Experimento de las múltiples rendijas cuántico.
+4. Función que grafica con un diagrama de barras las probabilidades de un vector de estados
+5. Función que calcula la probabilidad de encontrar una partícula en una posición en particular.
+6. Función que calcula la amplitud de transición.
+7. Función que calcula la probabilidad de transitar.
+8. Función que calcula la media del observable en el estado dado.
+9. Función que calcula la varianza del observable en el estado dado.
+10. Función que calcula el delta del observable en el estado dado.
+11. Función que calcula calcula los valores propios del observable.
+12. Función que calcula la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
+13. Función que calcula, con una serie de matrices Un, el estado final a partir de un estado inicial 
+Cabe aclarar que para el cuarto punto se importó la librería matplotlib, de la cual requiere una previa instalación.
+- Se incluyen ejercicios del capítulo 4 de Quantum computing for computer scientists en el archivo Ejercicios dentro del directorio Teoria_cuantica_basica. - Se realizan pruebas con la librería unittest dentro de TestQuantum.py en el directorio Teoria_cuantica_basica.
