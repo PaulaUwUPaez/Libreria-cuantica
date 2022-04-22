@@ -4,6 +4,30 @@ import numpy as np
 from numpy.linalg import eig
 import LibNumerosComplejos.numeroscomplejos as lc
 import random
+
+def cuatro2(biliar_matriz, ket, num):
+    """resolucion del ejercicio 4.4.2
+    :param biliar_matriz: matriz adyacent a la bola de billar
+    :param ket: estado inicial
+    """
+    solution = sc.system_clikcs(biliar_matriz, ket, num)
+
+    return solution
+
+
+def cuatro1(matriz1, matriz2):
+    """Resolucion del porblema 4.4.1
+    :param matriz1: posible matriz unitaria
+    :param matriz2: posible matriz unitaria
+    :return: un booleano
+    """
+    if nc.unitaria(matriz1) and nc.unitaria(matriz2):
+        product = nc.multiplicacion_matrices(matriz1, matriz2)
+        if nc.unitaria(product):
+            return True
+
+    return False
+
 def Experiment_Marbles(A, V, t):
     """Función que simula los clicks para el experimento 
     de la canicas con coeficientes booleanos.
@@ -101,14 +125,6 @@ def UseNotationValue(A):
         pos = str(A[i]).find("+")
         if pos == -1:
             pos = str(A[i]).find("-")
-            #if pos == 0:
-                #pos = str(A[i])[1:].find("-")
-                #new_pos = str(A[i])[pos + 1:].find("-")
-                #if new_pos != -1:
-                #else:
-            #else:
-                #real = str(A[i])[:pos]
-                #imaginario = str(A[i])[pos+1:len(A[i]) - 2]
 
         else:
             real = str(A[i])[:pos]
@@ -116,8 +132,6 @@ def UseNotationValue(A):
         
         result += [(float(real), float(imaginario))]
         real, imaginario = "", ""
-
-        
         
     return result
 
