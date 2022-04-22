@@ -50,6 +50,7 @@ Aquí se encuentra:
 11. Función que calcula calcula los valores propios del observable.
 12. Función que calcula la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
 13. Función que calcula, con una serie de matrices Un, el estado final a partir de un estado inicial. 
+14. Se agregan los ejercicios 4.4.1 y 4.4.2
 - Cabe aclarar que para el cuarto punto se importó la librería matplotlib, de la cual requiere una previa instalación.
 - Se incluyen ejercicios del capítulo 4 de Quantum computing for computer scientists en el archivo Ejercicios.
 - Se realizan pruebas con la librería unittest dentro de TestQuantum.py
