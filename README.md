@@ -31,9 +31,9 @@ Esta librería contiene las siguientes operaciones con números complejos dentro
 29. Normalizar un vector.
 30. Hallar la matriz identidad.
 
-- Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py en el directorio LibNumerosComplejos.
+- Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py.
 
-Además de ello, cuenta con retos de programación de los capítulos 3 y 4 de Quantum computing for computer scientists dentro del archivo quantum.py en el directorio Teoria_cuantica_basica.
+Además de ello, cuenta con retos de programación de los capítulos 3 y 4 de Quantum computing for computer scientists dentro del archivo quantum.py.
 
 Aquí se encuentra:
 
@@ -51,4 +51,5 @@ Aquí se encuentra:
 12. Función que calcula la probabilidad de que el sistema transite a alguno de los vectores propios después de la observación.
 13. Función que calcula, con una serie de matrices Un, el estado final a partir de un estado inicial. 
 - Cabe aclarar que para el cuarto punto se importó la librería matplotlib, de la cual requiere una previa instalación.
-- Se incluyen ejercicios del capítulo 4 de Quantum computing for computer scientists en el archivo Ejercicios dentro del directorio Teoria_cuantica_basica. - Se realizan pruebas con la librería unittest dentro de TestQuantum.py en el directorio Teoria_cuantica_basica.
+- Se incluyen ejercicios del capítulo 4 de Quantum computing for computer scientists en el archivo Ejercicios.
+- Se realizan pruebas con la librería unittest dentro de TestQuantum.py.
