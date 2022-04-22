@@ -1,35 +1,35 @@
 Esta librería contiene las siguientes operaciones con números complejos dentro del archivo Libreria_operaciones_complejos.py:
 
-Suma
-Producto
-Resta
-División
-Módulo
-Conjugado
-Conversión entre representaciones polar y cartesiano
-Retornar la fase de un número complejo.
-Adición de vectores complejos.
-Inverso (aditivo) de un vector complejo.
-Multiplicación de un escalar por un vector complejo.
-Adición de matrices complejas.
-Inversa (aditiva) de una matriz compleja.
-Multiplicación de un escalar por una matriz compleja.
-Transpuesta de una matriz/vector.
-Conjugada de una matriz/vector.
-Adjunta (daga) de una matriz/vector.
-Producto de dos matrices (de tamaños compatibles).
-Función para calcular la "acción" de una matriz sobre un vector.
-Producto interno de dos vectores.
-Norma de un vector.
-Distancia entre dos vectores.
-Revisar si una matriz es unitaria.
-Revisar si una matriz es Hermitiana.
-Producto tensor de dos vectores.
-Producto tensor de dos matrices.
-Módulo cuadrado de un vector.
-Módulo cuadrado de un complejo.
-Normalizar un vector.
-Hallar la matriz identidad.
+1. Suma
+2. Producto
+3. Resta
+4. División
+5. Módulo
+6. Conjugado
+7. Conversión entre representaciones polar y cartesiano
+8. Retornar la fase de un número complejo.
+9. Adición de vectores complejos.
+10. Inverso (aditivo) de un vector complejo.
+11. Multiplicación de un escalar por un vector complejo.
+12. Adición de matrices complejas.
+13. Inversa (aditiva) de una matriz compleja.
+14. Multiplicación de un escalar por una matriz compleja.
+15. Transpuesta de una matriz/vector.
+16. Conjugada de una matriz/vector.
+17. Adjunta (daga) de una matriz/vector.
+18. Producto de dos matrices (de tamaños compatibles).
+19. Función para calcular la "acción" de una matriz sobre un vector.
+20. Producto interno de dos vectores.
+21. Norma de un vector.
+22. Distancia entre dos vectores.
+23. Revisar si una matriz es unitaria.
+24. Revisar si una matriz es Hermitiana.
+25. Producto tensor de dos vectores.
+26. Producto tensor de dos matrices.
+27. Módulo cuadrado de un vector.
+28. Módulo cuadrado de un complejo.
+29. Normalizar un vector.
+30. Hallar la matriz identidad.
 Por medio de la libreria unittest se realizan pruebas para cada operación dentro del archivo TestLibcplx.py en el directorio LibNumerosComplejos.
 
 Además de ello, cuenta con retos de programación de los capítulos 3 y 4 de Quantum computing for computer scientists dentro del archivo quantum.py en el directorio Teoria_cuantica_basica.
